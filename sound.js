@@ -1,4 +1,4 @@
-import { hslToRgb } from './utils';
+import { hslToRgb } from './utils.js';
 
 const width = 1500;
 const height = 1500;
