@@ -79,7 +79,7 @@ function drawFrequency(frequencyData) {
     ctx.fillRect(x, height - barHeight, barWidth, barHeight);
     x += barWidth + 2;
   });
-  // console.log(barWidth);
+  console.log(barWidth);
   // console.log(frequencyData);
   requestAnimationFrame(() => drawFrequency(frequencyData));
 }
